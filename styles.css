@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    width:auto;
+    position:sticky;
+    top:0;
+    cursor: pointer;
+    background-blend-mode: darken;
+    
+
+
+    
+}
+.nav-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+    
+    
+}
+.logo{
+    height:auto;
+    width:auto
+}
+.nav-list li{
+    list-style:none;
+    padding:10px;
+
+    
+}
+.nav-list li a{
+    color:black;
+    text-decoration: none;
+    color:white;
+    
+}
+
+.nav-list li a:hover{
+    color:green;
+}
+/*.nav-list li a:visited{
+    color: blue;
+}
+*/
+.nav-list li a:active{
+    color:red;
+}
+
+
+.rightNav{
+    width:30%;
+    text-align: right;
+    padding: 0 20px ;
+
+}
+.rightNav input:hover{
+    box-shadow: 0 0 3px 3px green;
+}
+.logo img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:solid white;
+
+}
+.logo img:hover{
+    color: green;
+    box-shadow: 0 0 3px 3px green;
+    
+}
+
+#search{
+    padding:5px;
+    font-size: 17px;
+    border: 2px solid burlywood; 
+    border-radius:9px;
+
+}
+.btn-sm{
+    padding: 5px;
+    font-size:17px;
+    border:2px solid green;
+    border-radius: 9px;
+
+}
+.btn-sm:active{
+    color:red;
+}
+.btn-sm:hover{
+    color:green;
+}
+.backgroud{
+    background-color:rgba(0,0,0,0.7);
+    background-image:  url('img/BUILDING.jpg'); 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-blend-mode: darken;
+    background-size: cover;
+
+}
+.background{
+    background-color:grey; 
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.firstSection{
+    height:100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:70%;
+    margin:auto;
+    height: 80%;
+}
+.firsthalf{
+    width:75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondhalf img{
+    border: solid blue;
+    height: 120px;
+    width:120px;
+    border-radius:50%; 
+    display: block;
+    margin:auto;
+    cursor: pointer;
+    
+}
+.secondhalf img:hover {
+    box-shadow: 0 0 4px 4px green
+  }
+.text-big{
+    font-size:41px;
+    text-align: center;
+
+ }
+ .text-small{
+   font-size:18px;
+ }
+ .buttons{
+    justify-content: center;
+    align-items: center;
+ }
+ .btn{
+    padding: 8px 25px;
+    margin: 7px 3px 7px;
+    border: 2px solid white;
+    border-radius: 13px; 
+    background:none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+
+ }
+ .btn:hover{
+    color: green;
+    box-shadow:0 0 2px 2px green;
+ }
+ .btn-sm{
+    padding: 6px 10px;
+    margin: 7px 3px 7px;
+    border: 2px solid white;
+    border-radius: 13px; 
+    background:none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ .btn-dark{
+    background-color:lightgray;
+    border: 2px solid black;
+    color:black;
+ }
+ .section{
+    margin: auto;
+    max-width:80%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+    margin:15px;
+ }
+.left{
+    flex-direction: row-reverse;
+}
+ .parases{
+    padding:0 65px ;
+ }
+ span{
+    color:green;
+ }
+ .sectionTag{
+    align-content: center;
+    color: black;
+ }
+ .sectionSubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+ .thb img{
+    height:250px;
+    width:300px;
+    border-radius: 10px;
+    border: 2px solid ;
+ }
+ .thb2 img{
+    box-shadow: 0 0 4px 4px blue;
+ }
+ .thb1 img{
+    box-shadow: 0 0 4px 4px yellow;
+ }
+ .thb0 img{
+    box-shadow:  0 0 3px 4px  orangered ;
+
+ }
+ .js{
+    color:blueviolet;
+ }
+ .contact{
+    background-color: beige;
+    height:533px;
+
+ }
+.text-centre{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 0 0;
+    font-size: 30px;
+
+}
+.form{
+    max-width:500px;
+    margin:20px auto;
+
+}
+.form input{
+    margin:0 0 14px;
+    padding:5px 3px;
+    width:100%;
+    font-size:13px;
+    border:2px solid grey;
+    border-radius:6px;
+}
+#text{
+    width:100%;
+    height: 136px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    padding:20px 0;
+   }
+   .burger{
+    position:absolute;
+    cursor:pointer;
+    right:5%;
+    top:15px;
+    display:none;
+
+   }
+   .line{
+    width:33px;
+    background-color: white;
+    height:4px;
+    margin:3px 3px;
+   }
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height:447px;
+
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width:100%
+    }
+    .h-nav-resp{
+        height:72px;
+    }
+    .burger{
+        display:block;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+    .section{
+        width:100%;
+
+    }
+    .buttons{
+        text-align: center;
+
+    }
+    .parases{
+        padding:0;
+    }
+}
